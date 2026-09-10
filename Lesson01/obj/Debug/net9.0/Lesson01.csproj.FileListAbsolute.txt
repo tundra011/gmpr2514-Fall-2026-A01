@@ -34,3 +34,4 @@ C:\gmpr2514\mine\gmpr2514-Fall-2026-A01\Lesson01\obj\Debug\net9.0\refint\Lesson0
 C:\gmpr2514\mine\gmpr2514-Fall-2026-A01\Lesson01\obj\Debug\net9.0\Lesson01.pdb
 C:\gmpr2514\mine\gmpr2514-Fall-2026-A01\Lesson01\obj\Debug\net9.0\Lesson01.genruntimeconfig.cache
 C:\gmpr2514\mine\gmpr2514-Fall-2026-A01\Lesson01\obj\Debug\net9.0\ref\Lesson01.dll
+C:\gmpr2514\mine\gmpr2514-Fall-2026-A01\Lesson01\obj\Debug\net9.0\Lesson01.sourcelink.json
