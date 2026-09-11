@@ -11,7 +11,8 @@ public class SimpleGame : Game
     private SpriteBatch _spriteBatch;
     private Texture2D _pixle;
 
-    private int _xPosition, _yPosition, _width, _height;
+    // private int _xPosition, _yPosition, _width, _height;
+    private Vector2 _position, _dimensions;
 
     private Color _rectangleColor;
     private bool _isVisible;
@@ -26,10 +27,12 @@ public class SimpleGame : Game
     protected override void Initialize()
     {
         // TODO: Add your initialization logic here
-        _xPosition = 100;
-        _yPosition = 150;
-        _width = 300;
-        _height = 200;
+        _position = new Vector2(100,150);
+        _dimensions = new Vector2(300,200);
+        // _xPosition = 100;
+        // _yPosition = 150;
+        // _width = 300;
+        // _height = 200;
 
         _rectangleColor = Color.DarkCyan;
         _isVisible = true;
@@ -50,32 +53,34 @@ public class SimpleGame : Game
 
     protected override void Update(GameTime gameTime)
     {
+
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
 
         // TODO: Add your update logic here
 
         base.Update(gameTime);
+
     }
 
     protected override void Draw(GameTime gameTime)
     {
+
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
-        if (_isVisible == true) {
-            
-        
+        if (_isVisible) {
 
             _spriteBatch.Begin();
-
-            Rectangle rect = new Rectangle(_xPosition, _yPosition, _width, _height);
-
+            // Rectangle rect = new Rectangle(_xPosition, _yPosition, _width, _height);
+            // the x any y values stored in Vector2 are floats while in a rect they are a int
+             Rectangle rect = new Rectangle( (int)_position.X , (int)_position.Y , (int)_dimensions.X , (int)_dimensions.Y);
            _spriteBatch.Draw(_pixle,rect, _rectangleColor);
-
             _spriteBatch.End();
+
         }
         // TODO: Add your drawing code here
-
         base.Draw(gameTime);
+
     }
+
 }
