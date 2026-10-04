@@ -1,4 +1,10 @@
 <Solution>
   <Project Path="Lesson01/Lesson01.csproj" />
   <Project Path="Lesson02/Lesson02.csproj" />
+  <Project Path="Lesson02Game_Exercise_Solutions/Lesson02Game_Exercise_Solutions.csproj" />
+  <Project Path="Lesson03_Content/Lesson03_Content.csproj" />
+  <Project Path="Lesson03_MyContent/Lesson03_MyContent.csproj" />
+  <Project Path="Lesson04_Key_Input/Lesson04_Key_Input.csproj" />
+  <Project Path="Lesson05_Pong/Lesson05_Pong.csproj" />
+  <Project Path="Lukas_Wieland_Assignment01/Lukas_Wieland_Assignment01.csproj" />
 </Solution>

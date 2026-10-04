@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson05_Pong/Content/Ball.png","C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson05_Pong/Content/bin/DesktopGL/Content/Ball.xnb","TextureProcessor","Texture2DContent",2856,281,0.0967628
+"C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson05_Pong/Content/Court.png","C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson05_Pong/Content/bin/DesktopGL/Content/Court.xnb","TextureProcessor","Texture2DContent",3584,150085,0.0097779
+"C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson05_Pong/Content/Paddle.png","C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson05_Pong/Content/bin/DesktopGL/Content/Paddle.xnb","TextureProcessor","Texture2DContent",2803,229,0.0025753

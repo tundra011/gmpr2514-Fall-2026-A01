@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson03_MyContent/Content/Beetle.png","C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson03_MyContent/Content/bin/DesktopGL/Content/Beetle.xnb","TextureProcessor","Texture2DContent",2219,12565,0.0754477
+"C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson03_MyContent/Content/Station.png","C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson03_MyContent/Content/bin/DesktopGL/Content/Station.xnb","TextureProcessor","Texture2DContent",212813,819285,0.0317257
+"C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson03_MyContent/Content/SystemArialFont.spritefont","C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson03_MyContent/Content/bin/DesktopGL/Content/SystemArialFont.xnb","FontDescriptionProcessor","SpriteFontContent",2073,37913,0.0447794
+"C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson03_MyContent/Content/Walking.png","C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson03_MyContent/Content/bin/DesktopGL/Content/Walking.xnb","TextureProcessor","Texture2DContent",24842,373333,0.0205852

@@ -14,6 +14,8 @@ public class SimpleGame : Game
     // private int _xPosition, _yPosition, _width, _height;
     private Vector2 _position, _dimensions;
 
+    private float _speed;
+
     private Color _rectangleColor;
     private bool _isVisible;
 
@@ -33,6 +35,7 @@ public class SimpleGame : Game
         // _yPosition = 150;
         // _width = 300;
         // _height = 200;
+        _speed = 150;
 
         _rectangleColor = Color.DarkCyan;
         _isVisible = true;
@@ -53,6 +56,9 @@ public class SimpleGame : Game
 
     protected override void Update(GameTime gameTime)
     {
+
+        float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
+        _position.X += _speed * deltaTime;
 
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();

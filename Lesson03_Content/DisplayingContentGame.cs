@@ -1,15 +1,20 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace Lesson02;
+namespace Lesson03_Content;
 
-public class Game1 : Game
+public class DisplayingContentGame : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
+    private Texture2D _ship, _spaceStation;
+    private SpriteFont _arial;
+    private string _output = "The industrial revolution and its concequences";
 
-    public Game1()
+
+    public DisplayingContentGame()
     {
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
@@ -18,7 +23,10 @@ public class Game1 : Game
 
     protected override void Initialize()
     {
-        // TODO: Add your initialization logic here
+        
+        _graphics.PreferredBackBufferWidth = 640;
+        _graphics.PreferredBackBufferHeight = 320;
+        _graphics.ApplyChanges();
 
         base.Initialize();
     }
@@ -27,7 +35,10 @@ public class Game1 : Game
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-        // TODO: use this.Content to load your game content here
+        _spaceStation = Content.Load<Texture2D>("Station");
+        _ship = Content.Load<Texture2D>("Beetle");
+        _arial = Content.Load<SpriteFont>("SystemArialFont");
+       
     }
 
     protected override void Update(GameTime gameTime)
@@ -44,7 +55,13 @@ public class Game1 : Game
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
-        // TODO: Add your drawing code here
+        _spriteBatch.Begin();
+
+        _spriteBatch.Draw(_spaceStation, Vector2.Zero, Color.White);
+        _spriteBatch.Draw(_ship,new Vector2(300, 140),Color.White);
+        _spriteBatch.DrawString(_arial, _output, new Vector2(20, 20), Color.White);
+
+        _spriteBatch.End();
 
         base.Draw(gameTime);
     }
