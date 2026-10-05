@@ -11,10 +11,9 @@ public class Assignment01 : Game
     private SpriteBatch _spriteBatch;
     private Texture2D _rock, _backGroundTexture;
     private SpriteFont _arial;
-    private string _output = "lol";
+    private string _output = "im tired boss";
     private SimpleAnimation _bird, _explosion;
-    private KeyboardState _KbPreviousState;
-    private Vector2 _birdPosition, _RockVelocity, _RockPosition;
+    private Vector2 _RockVelocity, _RockPosition;
     private Rectangle PlayAreaBoundingBox
     {
         get
