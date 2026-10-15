@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lukas_Wieland_Assignment01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac718340c8dfaaabe659a1819059a0183128ad79")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17b0682db2a6b06f54fe48b5ac8b101d5299879c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lukas_Wieland_Assignment01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lukas_Wieland_Assignment01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
