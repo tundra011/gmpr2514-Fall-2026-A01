@@ -1,0 +1,8 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson06/Content/Background.png","C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson06/Content/bin/DesktopGL/Content/Background.xnb","TextureProcessor","Texture2DContent",64304,880085,0.1299828
+"C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson06/Content/Cannon.png","C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson06/Content/bin/DesktopGL/Content/Cannon.xnb","TextureProcessor","Texture2DContent",4069,35285,0.0020136
+"C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson06/Content/CannonBall.png","C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson06/Content/bin/DesktopGL/Content/CannonBall.xnb","TextureProcessor","Texture2DContent",2822,149,0.0015083
+"C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson06/Content/Fireball.png","C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson06/Content/bin/DesktopGL/Content/Fireball.xnb","TextureProcessor","Texture2DContent",2994,2805,0.0013372
+"C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson06/Content/Mosquito.png","C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson06/Content/bin/DesktopGL/Content/Mosquito.xnb","TextureProcessor","Texture2DContent",9900,81045,0.0032713
+"C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson06/Content/Poof.png","C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson06/Content/bin/DesktopGL/Content/Poof.xnb","TextureProcessor","Texture2DContent",3129,8277,0.000926
+"C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson06/Content/SystemArialFont.spritefont","C:/gmpr2514/mine/gmpr2514-Fall-2026-A01/Lesson06/Content/bin/DesktopGL/Content/SystemArialFont.xnb","FontDescriptionProcessor","SpriteFontContent",2073,37913,0.0606418
